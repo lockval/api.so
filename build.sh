@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [[ $(go env GOVERSION) != go1.19.4 ]]; then
-    echo Requires: go1.19.4, currently: $(go env GOVERSION)
+if [[ $(go env GOVERSION) != go1.21.8 ]]; then
+    echo Requires: go1.21.8, currently: $(go env GOVERSION)
     exit 1
 fi
 
